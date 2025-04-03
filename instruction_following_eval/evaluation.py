@@ -105,6 +105,7 @@ def test_instruction_following(example: Union[Dict[str, Any], InputExample], res
             instruction.build_description(prompt=example.prompt)
 
         is_following = any(r.strip() and instruction.check_following(r) for r in responses)
+        print("ins:", instruction, "isfollow:", is_following, "strict:", strict)
         is_following_list.append(is_following)
 
     return OutputExample(

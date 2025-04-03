@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+instruction_following_eval/__init__.py
+instruction_following_eval/evaluation.py
+instruction_following_eval/instructions.py
+instruction_following_eval/instructions_registry.py
+instruction_following_eval/instructions_util.py
+instruction_following_eval.egg-info/PKG-INFO
+instruction_following_eval.egg-info/SOURCES.txt
+instruction_following_eval.egg-info/dependency_links.txt
+instruction_following_eval.egg-info/requires.txt
+instruction_following_eval.egg-info/top_level.txt
+instruction_following_eval/data/input_data.jsonl

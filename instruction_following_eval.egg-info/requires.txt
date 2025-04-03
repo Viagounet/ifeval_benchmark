@@ -1,0 +1,6 @@
+immutabledict
+langdetect
+nltk
+openai>=1.70.0
+pandas
+typer

@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: instruction_following_eval
+Version: 0.1.0
+Summary: Instruction Following Eval
+Author: Jose Javier Gonzalez Ortiz
+Project-URL: Homepage, https://github.com/josejg/instruction_following_eval
+Project-URL: Repository, https://github.com/josejg/instruction_following_eval
+Keywords: instruction_following_eval,formats,machine learning,encoding
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: immutabledict
+Requires-Dist: langdetect
+Requires-Dist: nltk
+Requires-Dist: openai>=1.70.0
+Requires-Dist: pandas
+Requires-Dist: typer
