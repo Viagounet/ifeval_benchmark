@@ -22,7 +22,6 @@ for example in examples:
     ]
     )
     responses.append(completion.choices[0].message.content)
-    print(completion.choices[0].message.content)
     metrics = evaluate_instruction_following(examples[:i], responses)
 
     print(metrics)

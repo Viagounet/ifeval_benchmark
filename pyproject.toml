@@ -16,6 +16,7 @@ classifiers = [
 ]
 keywords = ["instruction_following_eval", "formats", "machine learning", "encoding"]
 dependencies = [
+    "datasets>=3.5.0",
     "immutabledict",
     "langdetect",
     "nltk",

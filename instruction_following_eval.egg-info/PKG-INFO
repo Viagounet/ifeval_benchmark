@@ -11,6 +11,7 @@ Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+Requires-Dist: datasets>=3.5.0
 Requires-Dist: immutabledict
 Requires-Dist: langdetect
 Requires-Dist: nltk

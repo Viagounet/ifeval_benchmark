@@ -1,3 +1,4 @@
+datasets>=3.5.0
 immutabledict
 langdetect
 nltk
